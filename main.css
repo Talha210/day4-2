@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+#navbar {
+  background: #333;
+  text-align: center;
+  padding-bottom: 0.5%;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 1.5%;
+}
+
+#navbar ul li a {
+  color: #958B81;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-header {
+  background-image: url();
+  background-size: cover;
+  background-position: 50% 25%;
+  height: 39vh;
+}
+
+.image-grid {
+  display: grid;
+}
+
+image-grid div {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/SydneyOperaHouse20182.jpg/1200px-SydneyOperaHouse20182.jpg');
+  width: 400px;
+  height: 200px;
+}
