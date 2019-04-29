@@ -50,6 +50,12 @@ width: 12%
 .search-form input[type="submit"] {
   width: 80%;
 }
+
+.form-group label[for$=''] {
+  position: absolute;
+  top: 55%;
+  right: 25%;
+}
 .search-grid {
   padding-top: 6%;
   justify-content: center;
